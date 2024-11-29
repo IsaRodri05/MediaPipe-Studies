@@ -1,8 +1,9 @@
 import cv2
 import mediapipe as mp
 
-#Create the 21 points of the hand
+#Create the landmarks and connections
 drawing = mp.solutions.drawing_utils
+#Create the hands model
 hands_picture = mp.solutions.hands
 
 #Configuration of the model
