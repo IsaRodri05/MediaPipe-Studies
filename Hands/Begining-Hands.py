@@ -37,7 +37,7 @@ with hands_picture.Hands(
             #Draw the landmarks and connections in the image 
             drawing.draw_landmarks(image, landmarks, hands_picture.HAND_CONNECTIONS,
                                    drawing.DrawingSpec(color=(255, 133, 248), thickness=4, circle_radius=2),
-                                   drawing.DrawingSpec(color=(88, 203, 255), thickness=2))
+                                   drawing.DrawingSpec(color=(255, 203, 88), thickness=2))
             
             #FIRST WAY TO ACCESS THE LANDMARKS
             #Accessing some landmarks according with their names. We need to multiply by the width and height of the image and convert to int
