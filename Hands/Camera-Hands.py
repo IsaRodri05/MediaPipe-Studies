@@ -40,7 +40,7 @@ with hands_model.Hands(
                 #Draw the landmarks and connections in the image 
                 drawing.draw_landmarks(frame, landmarks, hands_model.HAND_CONNECTIONS,
                                         drawing.DrawingSpec(color=(255, 133, 248), thickness=4, circle_radius=2),
-                                        drawing.DrawingSpec(color=(88, 203, 255), thickness=2))
+                                        drawing.DrawingSpec(color=(255, 203, 88), thickness=2))
 
         #Show the frame
         cv2.imshow("Frame", frame)
